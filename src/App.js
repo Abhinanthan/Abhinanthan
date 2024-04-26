@@ -1,11 +1,12 @@
-import LoginForm from "./components/loginform";
+import React from 'react';
+import FormComponent from './components/loginform'; // Assuming FormComponent.js is in the same directory
 
-function App() {
+const App = () => {
   return (
-    <div className="page">
-      <LoginForm />
+    <div className="App">
+      <FormComponent />
     </div>
   );
-}
+};
 
 export default App;
